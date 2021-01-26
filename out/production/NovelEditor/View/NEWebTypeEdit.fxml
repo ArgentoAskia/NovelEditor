@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.NEWebTypeEditController">
+   <children>
+      <ToolBar maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="30.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="73.0" text="注释【】" />
+            <Button mnemonicParsing="false" text="对话「」" />
+            <Button mnemonicParsing="false" text="待选译句==" />
+            <Button mnemonicParsing="false" text="心理描写（）" />
+            <Button mnemonicParsing="false" text="特定词『』" />
+            <SplitMenuButton mnemonicParsing="false" text="通用">
+              <items>
+                  <MenuItem mnemonicParsing="false" text="英文标点--&gt;中文标点" />
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </SplitMenuButton>
+            <SplitMenuButton mnemonicParsing="false" text="排版">
+              <items>
+                <MenuItem mnemonicParsing="false" text="一键排版" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </SplitMenuButton>
+            <SplitMenuButton mnemonicParsing="false" text="角色人名">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </SplitMenuButton>
+        </items>
+      </ToolBar>
+      <TextArea layoutY="33.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="66.0" />
+      <ToolBar layoutY="33.0" prefHeight="33.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="33.0">
+        <items>
+          <Button mnemonicParsing="false" text="Button" />
+        </items>
+      </ToolBar>
+   </children>
+</AnchorPane>
