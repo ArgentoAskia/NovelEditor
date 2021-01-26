@@ -1,0 +1,2 @@
+# NovelEditor
+NovelEditor OpenSource Project
